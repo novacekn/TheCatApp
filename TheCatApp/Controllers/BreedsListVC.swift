@@ -80,6 +80,10 @@ extension BreedsListVC {
                 if let error = error {
                     self.activityIndicator.stopAnimating()
                     print(error.localizedDescription)
+                    let alertController = UIAlertController(title: "ERROR", message: "A network error has occurred.", preferredStyle: .alert)
+                    let okAction = UIAlertAction(title: "OK", style: .cancel)
+                    alertController.addAction(okAction)
+                    self.present(alertController, animated: true, completion: nil)
                 }
             }
         }

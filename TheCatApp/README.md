@@ -22,3 +22,19 @@ These attributes are rather self explanatory and the are either described with a
 As stated above, all of the data for this application is sourced from [https://thecatapi.com/](https://thecatapi.com/).
 
 ### Breed List View
+Scroll through the table and select the breed of cat you are interested in learning more about. If you want to see photos that you have previously saved to your device, click the "Photos" bar button in the navigation panel.
+
+### Breed Detail View
+This view shows more detail about the breed as discussed in the overview section. The photo(s) from this view may be persisted if you so choose with a long touch gesture on the image. If the image was saved successfully, an alert will inform you that it was saved successfully. If there was an error, an alert will also warn you of that.
+
+Pressing the "Info" bar button item in the navigation panel will open a new view that contains a description of the breed and its temperament. Back on the breed detail view you will notice a refresh button, pressing this will load a new random photo of this particular breed of cat.
+
+### Breed Description and Temperament View
+This was discussed above.
+
+### Saved Photos View
+This view is a collection view that shows all of the users saved photos. Note that you can delete any particular photo with a tap gesture on the photo that you would like to delete.
+
+### Running the app
+There are no external dependencies, just open it in Xcode (note that I built this in Xcode 12 for iOS 14), pick an appropriate simulator (I used an iPhone 11 simulator), and press run.
+

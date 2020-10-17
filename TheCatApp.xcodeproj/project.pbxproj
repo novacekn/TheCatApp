@@ -26,11 +26,6 @@
 		4350552B253A8B22001C333E /* BreedDescriptionAndTemperamentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350552A253A8B22001C333E /* BreedDescriptionAndTemperamentVC.swift */; };
 		4350552E253AAD43001C333E /* SavedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350552D253AAD43001C333E /* SavedPhotoCell.swift */; };
 		43505531253AAD62001C333E /* SavedPhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43505530253AAD62001C333E /* SavedPhotosVC.swift */; };
-		43505537253ABDD1001C333E /* BreedListView.png in Resources */ = {isa = PBXBuildFile; fileRef = 43505536253ABDD1001C333E /* BreedListView.png */; };
-		4350553A253ABDFE001C333E /* BreedDetailView.png in Resources */ = {isa = PBXBuildFile; fileRef = 43505539253ABDFE001C333E /* BreedDetailView.png */; };
-		4350553D253ABE17001C333E /* BreedInfoView.png in Resources */ = {isa = PBXBuildFile; fileRef = 4350553C253ABE17001C333E /* BreedInfoView.png */; };
-		43505540253ABE36001C333E /* ImageSavedDialog.png in Resources */ = {isa = PBXBuildFile; fileRef = 4350553F253ABE36001C333E /* ImageSavedDialog.png */; };
-		43505543253ABE50001C333E /* SavedPhotosView.png in Resources */ = {isa = PBXBuildFile; fileRef = 43505542253ABE50001C333E /* SavedPhotosView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,11 +51,6 @@
 		4350552D253AAD43001C333E /* SavedPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPhotoCell.swift; sourceTree = "<group>"; };
 		43505530253AAD62001C333E /* SavedPhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPhotosVC.swift; sourceTree = "<group>"; };
 		43505533253ABCE4001C333E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		43505536253ABDD1001C333E /* BreedListView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BreedListView.png; path = ../../../../../../../Desktop/BreedListView.png; sourceTree = "<group>"; };
-		43505539253ABDFE001C333E /* BreedDetailView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BreedDetailView.png; path = ../../../../../../../Desktop/BreedDetailView.png; sourceTree = "<group>"; };
-		4350553C253ABE17001C333E /* BreedInfoView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = BreedInfoView.png; path = ../../../../../../../Desktop/BreedInfoView.png; sourceTree = "<group>"; };
-		4350553F253ABE36001C333E /* ImageSavedDialog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ImageSavedDialog.png; path = ../../../../../../../Desktop/ImageSavedDialog.png; sourceTree = "<group>"; };
-		43505542253ABE50001C333E /* SavedPhotosView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SavedPhotosView.png; path = ../../../../../../../Desktop/SavedPhotosView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +88,6 @@
 				435054FA25351313001C333E /* Controllers */,
 				435054F825351305001C333E /* Network */,
 				435054F7253512F2001C333E /* Storyboards */,
-				43505535253ABDC3001C333E /* Screenshots */,
 				435054DB253512A7001C333E /* AppDelegate.swift */,
 				435054E7253512A8001C333E /* Assets.xcassets */,
 				435054EC253512A8001C333E /* Info.plist */,
@@ -167,18 +156,6 @@
 			path = Responses;
 			sourceTree = "<group>";
 		};
-		43505535253ABDC3001C333E /* Screenshots */ = {
-			isa = PBXGroup;
-			children = (
-				43505539253ABDFE001C333E /* BreedDetailView.png */,
-				4350553F253ABE36001C333E /* ImageSavedDialog.png */,
-				43505536253ABDD1001C333E /* BreedListView.png */,
-				4350553C253ABE17001C333E /* BreedInfoView.png */,
-				43505542253ABE50001C333E /* SavedPhotosView.png */,
-			);
-			path = Screenshots;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -237,13 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				435054EB253512A8001C333E /* LaunchScreen.storyboard in Resources */,
-				43505543253ABE50001C333E /* SavedPhotosView.png in Resources */,
-				4350553D253ABE17001C333E /* BreedInfoView.png in Resources */,
-				43505537253ABDD1001C333E /* BreedListView.png in Resources */,
 				435054E8253512A8001C333E /* Assets.xcassets in Resources */,
 				435054E3253512A7001C333E /* Main.storyboard in Resources */,
-				4350553A253ABDFE001C333E /* BreedDetailView.png in Resources */,
-				43505540253ABE36001C333E /* ImageSavedDialog.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
