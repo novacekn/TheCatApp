@@ -8,24 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		435054DC253512A7001C333E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435054DB253512A7001C333E /* AppDelegate.swift */; };
-		435054DE253512A7001C333E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435054DD253512A7001C333E /* SceneDelegate.swift */; };
-		435054E0253512A7001C333E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435054DF253512A7001C333E /* ViewController.swift */; };
 		435054E3253512A7001C333E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435054E1253512A7001C333E /* Main.storyboard */; };
 		435054E6253512A7001C333E /* TheCatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 435054E4253512A7001C333E /* TheCatApp.xcdatamodeld */; };
 		435054E8253512A8001C333E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435054E7253512A8001C333E /* Assets.xcassets */; };
 		435054EB253512A8001C333E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435054E9253512A8001C333E /* LaunchScreen.storyboard */; };
+		435054FC2535135E001C333E /* CatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435054FB2535135E001C333E /* CatClient.swift */; };
+		4350550225351DC7001C333E /* Breed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350550125351DC7001C333E /* Breed.swift */; };
+		43505506253520A8001C333E /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43505505253520A8001C333E /* Weight.swift */; };
+		4350550A25352141001C333E /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350550925352141001C333E /* Category.swift */; };
+		4350550D25352193001C333E /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350550C25352193001C333E /* Vote.swift */; };
+		43505510253521D9001C333E /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350550F253521D9001C333E /* Favorite.swift */; };
+		4350551325352388001C333E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350551225352388001C333E /* Image.swift */; };
+		4350551925390CC7001C333E /* BreedsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350551825390CC7001C333E /* BreedsListVC.swift */; };
+		4350551C25390CD6001C333E /* BreedDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350551B25390CD6001C333E /* BreedDetailVC.swift */; };
+		4350551F25390CF1001C333E /* BreedsListViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350551E25390CF1001C333E /* BreedsListViewTableCell.swift */; };
+		43505523253A6480001C333E /* BreedDetailTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43505522253A6480001C333E /* BreedDetailTableCell.swift */; };
+		4350552B253A8B22001C333E /* BreedDescriptionAndTemperamentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350552A253A8B22001C333E /* BreedDescriptionAndTemperamentVC.swift */; };
+		4350552E253AAD43001C333E /* SavedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4350552D253AAD43001C333E /* SavedPhotoCell.swift */; };
+		43505531253AAD62001C333E /* SavedPhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43505530253AAD62001C333E /* SavedPhotosVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		435054D8253512A7001C333E /* TheCatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheCatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		435054DB253512A7001C333E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		435054DD253512A7001C333E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		435054DF253512A7001C333E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		435054E2253512A7001C333E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		435054E5253512A7001C333E /* TheCatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheCatApp.xcdatamodel; sourceTree = "<group>"; };
 		435054E7253512A8001C333E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		435054EA253512A8001C333E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		435054EC253512A8001C333E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435054FB2535135E001C333E /* CatClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatClient.swift; sourceTree = "<group>"; };
+		4350550125351DC7001C333E /* Breed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breed.swift; sourceTree = "<group>"; };
+		43505505253520A8001C333E /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		4350550925352141001C333E /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4350550C25352193001C333E /* Vote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		4350550F253521D9001C333E /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		4350551225352388001C333E /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		4350551825390CC7001C333E /* BreedsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsListVC.swift; sourceTree = "<group>"; };
+		4350551B25390CD6001C333E /* BreedDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailVC.swift; sourceTree = "<group>"; };
+		4350551E25390CF1001C333E /* BreedsListViewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedsListViewTableCell.swift; sourceTree = "<group>"; };
+		43505522253A6480001C333E /* BreedDetailTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDetailTableCell.swift; sourceTree = "<group>"; };
+		4350552A253A8B22001C333E /* BreedDescriptionAndTemperamentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedDescriptionAndTemperamentVC.swift; sourceTree = "<group>"; };
+		4350552D253AAD43001C333E /* SavedPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPhotoCell.swift; sourceTree = "<group>"; };
+		43505530253AAD62001C333E /* SavedPhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPhotosVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +82,76 @@
 		435054DA253512A7001C333E /* TheCatApp */ = {
 			isa = PBXGroup;
 			children = (
+				435054F6253512E6001C333E /* Models */,
+				435054F92535130E001C333E /* Views */,
+				435054FA25351313001C333E /* Controllers */,
+				435054F825351305001C333E /* Network */,
+				435054F7253512F2001C333E /* Storyboards */,
 				435054DB253512A7001C333E /* AppDelegate.swift */,
-				435054DD253512A7001C333E /* SceneDelegate.swift */,
-				435054DF253512A7001C333E /* ViewController.swift */,
-				435054E1253512A7001C333E /* Main.storyboard */,
 				435054E7253512A8001C333E /* Assets.xcassets */,
-				435054E9253512A8001C333E /* LaunchScreen.storyboard */,
 				435054EC253512A8001C333E /* Info.plist */,
-				435054E4253512A7001C333E /* TheCatApp.xcdatamodeld */,
 			);
 			path = TheCatApp;
+			sourceTree = "<group>";
+		};
+		435054F6253512E6001C333E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				435054E4253512A7001C333E /* TheCatApp.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		435054F7253512F2001C333E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				435054E1253512A7001C333E /* Main.storyboard */,
+				435054E9253512A8001C333E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		435054F825351305001C333E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4350550025351DB9001C333E /* Responses */,
+				435054FB2535135E001C333E /* CatClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		435054F92535130E001C333E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4350551E25390CF1001C333E /* BreedsListViewTableCell.swift */,
+				43505522253A6480001C333E /* BreedDetailTableCell.swift */,
+				4350552D253AAD43001C333E /* SavedPhotoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		435054FA25351313001C333E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4350551825390CC7001C333E /* BreedsListVC.swift */,
+				4350551B25390CD6001C333E /* BreedDetailVC.swift */,
+				4350552A253A8B22001C333E /* BreedDescriptionAndTemperamentVC.swift */,
+				43505530253AAD62001C333E /* SavedPhotosVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4350550025351DB9001C333E /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				4350550125351DC7001C333E /* Breed.swift */,
+				43505505253520A8001C333E /* Weight.swift */,
+				4350550925352141001C333E /* Category.swift */,
+				4350550C25352193001C333E /* Vote.swift */,
+				4350550F253521D9001C333E /* Favorite.swift */,
+				4350551225352388001C333E /* Image.swift */,
+			);
+			path = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,10 +224,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4350550225351DC7001C333E /* Breed.swift in Sources */,
+				4350551325352388001C333E /* Image.swift in Sources */,
+				4350551F25390CF1001C333E /* BreedsListViewTableCell.swift in Sources */,
+				4350552E253AAD43001C333E /* SavedPhotoCell.swift in Sources */,
+				43505510253521D9001C333E /* Favorite.swift in Sources */,
+				4350551C25390CD6001C333E /* BreedDetailVC.swift in Sources */,
+				43505506253520A8001C333E /* Weight.swift in Sources */,
+				43505531253AAD62001C333E /* SavedPhotosVC.swift in Sources */,
 				435054E6253512A7001C333E /* TheCatApp.xcdatamodeld in Sources */,
-				435054E0253512A7001C333E /* ViewController.swift in Sources */,
+				4350551925390CC7001C333E /* BreedsListVC.swift in Sources */,
+				4350550D25352193001C333E /* Vote.swift in Sources */,
+				43505523253A6480001C333E /* BreedDetailTableCell.swift in Sources */,
+				435054FC2535135E001C333E /* CatClient.swift in Sources */,
+				4350552B253A8B22001C333E /* BreedDescriptionAndTemperamentVC.swift in Sources */,
 				435054DC253512A7001C333E /* AppDelegate.swift in Sources */,
-				435054DE253512A7001C333E /* SceneDelegate.swift in Sources */,
+				4350550A25352141001C333E /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nnovacek.TheCatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nnovacek.TheCatApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
